@@ -30,8 +30,8 @@ div#div2 {
 
 div {
 	text-align: center;
-	border: 2px #5d1313 groove;
 	border-radius: 20px;
+	border: 2px #5d1313 outset;
 }
 
 div h2 {
@@ -40,9 +40,25 @@ div h2 {
 	padding-left: 10px;
 }
 
-div p {
-	color: #c3c0c0;
+.divp {
 	font-size: 150%;
 	padding-top: 20px;
+	margin:0 auto;
 	margin-bottom: 30px;
+	text-decoration: none;
+	display: block;
+}
+
+a:visited {
+	color: #ffffff;
+}
+
+a:hover{
+	color:#ffffff55;
+}
+
+div span {
+	color: #cbcbcc;
+	margin-left: 10px;
+	font-size:70%;
 }
