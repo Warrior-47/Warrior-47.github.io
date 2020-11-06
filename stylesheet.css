@@ -2,41 +2,46 @@ body {
 	font-family:"Lucida Calligraphy","Trebuchet MS",arial;
 	color: white;
 	background-color: black;
-	background-image: url("background1.jpg");
+	background-image: url("images/background.jpg");
+	background-size: 100%;
 }
 
 h1 {
+	color: #af1313;
 	font-size: 260%;
 	margin-top: 2.5%;
 }
 
 div#div1 {
 	position: fixed;
-	left: 5%;
-	top: 24%;
-	width: 30%;
+	left: 2%;
+	top: 28%;
+	width: 40%;
 	height: 50%;
 }
 
 div#div2 {
 	position: fixed;
-	right: 5%;
-	top: 24%;
-	width: 30%;
+	right: 2%;
+	top: 28%;
+	width: 40%;
 	height: 50%;
 }
 
 div {
 	text-align: center;
+	border: 2px #5d1313 groove;
+	border-radius: 20px;
 }
 
 div h2 {
-	color: red;
+	color: #af1313;
 	font-size: 220%;
 	padding-left: 10px;
 }
 
-p {
+div p {
+	color: #c3c0c0;
 	font-size: 150%;
 	padding-top: 20px;
 	margin-bottom: 30px;
