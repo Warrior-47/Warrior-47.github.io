@@ -49,6 +49,10 @@ div h2 {
 	display: block;
 }
 
+a {
+	color: #ffffff;
+}
+
 a:visited {
 	color: #ffffff;
 }
