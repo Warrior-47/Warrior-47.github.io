@@ -1,7 +1,43 @@
 body {
-
+	font-family:"Lucida Calligraphy","Trebuchet MS",arial;
+	color: white;
+	background-color: black;
+	background-image: url("background1.jpg");
 }
 
 h1 {
-  font-family: cursive;
+	font-size: 260%;
+	margin-top: 2.5%;
+}
+
+div#div1 {
+	position: fixed;
+	left: 5%;
+	top: 24%;
+	width: 30%;
+	height: 50%;
+}
+
+div#div2 {
+	position: fixed;
+	right: 5%;
+	top: 24%;
+	width: 30%;
+	height: 50%;
+}
+
+div {
+	text-align: center;
+}
+
+div h2 {
+	color: red;
+	font-size: 220%;
+	padding-left: 10px;
+}
+
+p {
+	font-size: 150%;
+	padding-top: 20px;
+	margin-bottom: 30px;
 }
